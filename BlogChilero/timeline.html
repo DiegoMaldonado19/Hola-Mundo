@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <link rel="stylesheet" href="timeline.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Mi Blog</h1>
+        
+        <!-- Formulario para subir un nuevo post -->
+        <div id="post-form">
+            <h2>Nuevo Post</h2>
+            <textarea id="post-content" placeholder="Escribe tu post aquí"></textarea>
+            <button onclick="publicarPost()">Publicar</button>
+        </div>
+        
+        <!-- Timeline de posts -->
+        <ul id="timeline">
+            <!-- Aquí se mostrarán los posts -->
+        </ul>
+    </div>
+    
+    <script src="timeline.js"></script>
+</body>
+</html>
